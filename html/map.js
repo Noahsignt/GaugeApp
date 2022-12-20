@@ -17,7 +17,6 @@ import { apikey } from './config.js';
     var bounds = L.latLngBounds(corner1, corner2);
     map.setMaxBounds(bounds);
 
-    const apikey = "f643f7e147724981dabe7c004e1b9b03";
     var marker = new L.marker([0, 0]); //invisible marker
     
     //to return correct location names
