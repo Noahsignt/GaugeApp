@@ -52,7 +52,7 @@ import { apikey } from './config.js';
                     </div> 
                     <figure> 
                     <img class="city-icon" src=${icon} alt=${weather[0]["main"]}> 
-                    <figcaption>${weather[0]["description"]}</figcaption> 
+                    <figcaption style="text-transform: uppercase;">${weather[0]["description"]}</figcaption> 
                     </figure> 
                     `;
 
