@@ -27,7 +27,8 @@
   
 .city-name {
   border-radius: 30px;
-  color: var(--text_light);
+  color: #D3D3D3;
+  font: 1rem/1.3 "Roboto", sans-serif;
   background: var(--orange);
 }
 
@@ -45,6 +46,7 @@
   font-size: 2rem;
   font-weight: bold;
   margin-top: 10px;
+  text-align: center;
   color: var(--text_dark);
 }
 
