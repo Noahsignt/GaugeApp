@@ -50,9 +50,9 @@ import { apikey } from './config.js';
                     </h2> 
                     <div class="city-temp">${Math.round(main.temp)}<sup>°C</sup> 
                     </div> 
-                    <figure> 
+                    <figure style="text-align: center; background-color: #333333; border-radius: 15px; width: 75%;" > 
                     <img class="city-icon" src=${icon} alt=${weather[0]["main"]}> 
-                    <figcaption style="text-transform: uppercase;">${weather[0]["description"]}</figcaption> 
+                    <figcaption style="text-transform:capitalize; text-align: center">${weather[0]["description"]}</figcaption> 
                     </figure> 
                     `;
 
